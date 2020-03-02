@@ -1,0 +1,211 @@
+*{
+    margin: 0;
+    padding: 0;
+
+    
+}
+.full{
+    margin: 0px;
+    padding: 0px;
+    background-color: white;
+    
+}  
+
+.BOLD{
+    font-size: 30PX;
+    font-family: Impact, Charcoal, sans-serif;
+    color: b71c1c;
+}
+.boldtwo{
+    font-size: 30PX;
+    font-family: Impact, Charcoal, sans-serif;
+    color:E91E63 ;
+    padding-left: 20px;
+    padding-top: -0.5em;
+}
+.boldthree{
+    color: FF4081;
+    font-weight: 500;
+    font-size: 20px;
+}
+.texttwo{
+    color: 795548;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    padding: 10px;
+}
+ .a {
+    align-items: center;
+    width: 100%;
+    height: auto;
+text-align: center;
+background-color: FFFF8D;
+color: 4E34
+}
+li{
+    list-style: none;
+    padding: 10px;
+}
+.contact{
+    list-style: none;
+    padding: 5px; 
+    width: 100%;
+}
+.icon{
+    padding: 5px;
+    border: 2px inset FAFAFA;
+    border-radius: 50%;
+    background-color:FFCA28;
+}
+.hobbiesicon{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: -100px;
+    margin-top: 20px;  
+}
+.c{
+    border: 5px groove black;
+    border-radius: 100%;
+   padding: 15px; 
+   margin: 10px;
+    color: E65100;
+}
+.hobbies{
+    text-align: center;
+}
+.b{
+    background-color: whitesmoke;
+width: 100%;
+height:auto;
+text-align: center;
+justify-content: space-around;
+}
+
+.skillprogress{
+    color: FFF8E1;
+    font-weight: 600;
+    border: 20px dashed FFA000;
+    background-color: FFA000;
+    margin: 2px;
+}
+.skillname{
+    font-weight: 800;
+    font-size: 16px;
+}
+h1{
+    color: DD2C00;
+    font-weight: 900;
+    font-size: 50PX;
+    font-family: Impact, Charcoal, sans-serif;
+    padding-left: 10px;
+    padding-top: 10px;
+    margin: 50px;  
+}
+h2{
+    color: FF5722;
+    font-size: 25px;
+    font-weight: 600;
+    padding-left:55px ;
+    padding-bottom: 20px;
+}
+.name{
+    line-height:0px;
+}
+.p{
+    color: 1A237E;
+}   
+
+.date{
+border: 10px solid FF80AB;
+border-radius: 75%;
+background-color: FF80AB;
+text-align: center;
+margin-left: 20px;
+margin-right: 20px;
+font-weight: 500;
+font-size: 27px;
+}
+
+hr { 
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: 10px;
+    border: 5px solid E91E63;
+    border-radius: 50%;
+    background-color:E91E63 ;   
+  } 
+img{
+    padding:10px;
+    width: 200px;
+    height: 200px;
+
+}
+.intro{
+    display: flex;
+}
+.icontwo{
+    color: F8BBD0;
+    padding-left: 10px;
+}
+@media (min-width:900px){
+    .full {
+        display: flex;
+flex-direction: row;
+margin: 0;
+padding: 0;
+list-style: none;
+width: 100%;
+
+}
+.b{
+    background-color:white;
+    width: 70%;
+    height:auto;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+.a {
+     
+    display: flex;
+    
+    align-items: center;
+    width: 30%;
+    height: auto;
+text-align: center;
+background-color: FFFF8D;
+padding: 5px;
+color: 4E342E;
+justify-content: space-around;
+    flex-wrap: wrap;
+}
+.education{
+    display: flex;
+}
+.experience{
+    display: flex;
+}
+    
+}
+
+@media all and  (max-width: 480px){
+
+     .a{
+         display: flex;
+         flex-direction:row;        
+     }
+      .b{
+          display: flex;
+          flex-direction: row;
+    
+      }
+}
+
+    
+
+
